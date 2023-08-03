@@ -51,7 +51,7 @@ export const Input = ({ children, id, register, messageErrors = null, label, cla
         }
 
         {
-          (id && !rest.readOnly)
+          (messageErrors && id && !rest.readOnly)
             ? messageErrors[id] && <span className='text-sm text-red-500'>* {messageErrors[id]?.message}</span>
             : null
         }
@@ -123,7 +123,7 @@ export const Input = ({ children, id, register, messageErrors = null, label, cla
       }
 
       {
-        (id && !rest.readOnly)
+        (messageErrors && id && !rest.readOnly)
           ? messageErrors[id] && <span className='text-sm text-red-500'>* {messageErrors[id]?.message}</span>
           : null
       }

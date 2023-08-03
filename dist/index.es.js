@@ -10098,7 +10098,7 @@ const F1 = ({ children: e, id: t, register: n, messageErrors: r = null, label: o
       o,
       " "
     ] }),
-    t && !s.readOnly ? r[t] && /* @__PURE__ */ w.exports.jsxs("span", { className: "text-sm text-red-500", children: [
+    r && t && !s.readOnly ? r[t] && /* @__PURE__ */ w.exports.jsxs("span", { className: "text-sm text-red-500", children: [
       "* ",
       (d = r[t]) == null ? void 0 : d.message
     ] }) : null,
@@ -10148,7 +10148,7 @@ const F1 = ({ children: e, id: t, register: n, messageErrors: r = null, label: o
       o,
       " "
     ] }),
-    t && !s.readOnly ? r[t] && /* @__PURE__ */ w.exports.jsxs("span", { className: "text-sm text-red-500", children: [
+    r && t && !s.readOnly ? r[t] && /* @__PURE__ */ w.exports.jsxs("span", { className: "text-sm text-red-500", children: [
       "* ",
       (u = r[t]) == null ? void 0 : u.message
     ] }) : null,
