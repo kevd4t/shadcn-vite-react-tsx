@@ -630,7 +630,7 @@ Check the top-level render call using <` + t + ">.");
 const fr = ({ children: E }) => /* @__PURE__ */ Oe.exports.jsx(
   "button",
   {
-    className: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
+    className: "bg-[#ff7373] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
     children: E
   }
 );

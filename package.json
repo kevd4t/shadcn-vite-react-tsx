@@ -1,7 +1,7 @@
 {
   "name": "shadcn-vite-react-tsx",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -23,6 +23,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "prepare": "npm run build",
+    "prepublish": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
