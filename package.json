@@ -1,7 +1,7 @@
 {
   "name": "shadcn-vite-react-tsx",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.2",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -26,13 +26,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.0.2",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.2.4",
     "tailwindcss-animate": "^1.0.6"
   },
   "devDependencies": {
@@ -42,7 +38,6 @@
     "@vitejs/plugin-react-swc": "^3.0.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.20",
-    "tailwindcss": "^3.2.4",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
     "vite-plugin-dts": "^1.7.1"

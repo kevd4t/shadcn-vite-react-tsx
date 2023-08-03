@@ -23,9 +23,4 @@ export default defineConfig({
     emptyOutDir: true,
   },
   plugins: [react(), dts()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
 });
