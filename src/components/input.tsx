@@ -52,7 +52,7 @@ export const Input = ({ children, id, register, messageErrors = null, label, cla
 
         {
           (messageErrors && id && !rest.readOnly)
-            ? messageErrors[id] && <span className='text-sm text-red-500'>* {messageErrors[id]?.message}</span>
+            ? messageErrors[id] && <span className='text-xs text-red-500'>* {messageErrors[id]?.message}</span>
             : null
         }
 
@@ -73,12 +73,12 @@ export const Input = ({ children, id, register, messageErrors = null, label, cla
                   type='button'
                   tabIndex={-1}
                   onClick={() => setShowPassword(prevState => !prevState)}
-                  className='absolute right-4 mr-0.5 top-2'
+                  className='absolute right-4 mr-0.5 top-2.5'
                 >
                   {
                     showPassword
-                      ? <EyeOff />
-                      : <Eye />
+                      ? <EyeOff className='text-slate-700' size={22} />
+                      : <Eye className='text-slate-700' size={22} />
                   }
                 </button>
               </div>
@@ -95,12 +95,12 @@ export const Input = ({ children, id, register, messageErrors = null, label, cla
                   type='button'
                   tabIndex={-1}
                   onClick={() => setShowPassword(prevState => !prevState)}
-                  className='absolute right-4 mr-0.5 top-2'
+                  className='absolute right-4 mr-0.5 top-2.5'
                 >
                   {
                     showPassword
-                      ? <EyeOff />
-                      : <Eye />
+                      ? <EyeOff className='text-slate-700' size={22} />
+                      : <Eye className='text-slate-700' size={22} />
                   }
                 </button>
               </div>
@@ -124,7 +124,7 @@ export const Input = ({ children, id, register, messageErrors = null, label, cla
 
       {
         (messageErrors && id && !rest.readOnly)
-          ? messageErrors[id] && <span className='text-sm text-red-500'>* {messageErrors[id]?.message}</span>
+          ? messageErrors[id] && <span className='text-xs text-red-500'>* {messageErrors[id]?.message}</span>
           : null
       }
 
